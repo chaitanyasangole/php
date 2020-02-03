@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php 
+//sort function will sort indexed array in ascending order
+$arr=array(100,23,465,650,78,1,69);
+print_r($arr);
+echo '<br>';
+sort($arr);
+//note:-After using the sort function it will affect the original array
+print_r($arr);
+
+echo'<br>';
+echo'<br>';
+$arr2=array('chaitany','raju','ramesh','alka','hercules','baban','hira');
+print_r($arr2);
+echo'<br>';
+sort($arr2);
+print_r($arr2);
+/*
+output:-
+-------------------------------------------------------------------
+Array ( [0] => 100 [1] => 23 [2] => 465 [3] => 650 [4] => 78 [5] => 1 [6] => 69 )
+Array ( [0] => 1 [1] => 23 [2] => 69 [3] => 78 [4] => 100 [5] => 465 [6] => 650 )
+
+Array ( [0] => chaitany [1] => raju [2] => ramesh [3] => alka [4] => hercules [5] => baban [6] => hira )
+Array ( [0] => alka [1] => baban [2] => chaitany [3] => hercules [4] => hira [5] => raju [6] => ramesh )
+*/
+?>
+</body>
+</html>
