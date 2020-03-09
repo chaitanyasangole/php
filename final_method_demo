@@ -16,6 +16,7 @@ $obj=new Strawberry;
 $obj->getInfo();//calling child class method
 
 ?>
+
 o/p :-
 -----------
 Fatal error: Cannot override final method Fruit::getInfo() in /www5zU3D2 on line 14
