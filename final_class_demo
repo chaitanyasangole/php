@@ -1,0 +1,27 @@
+<?php
+/*
+	* Final class :-
+    -------------
+	the class declared with final keyword is 'final class'.
+  It used for prevent class inheritance.
+*/
+	final class Fruit {
+	public function getInfo()
+	{
+	echo 'inside Fruit class , getInfo method<br>';
+	}
+}
+
+class Strawberry extends Fruit {
+	public function getInfo()
+	{
+	echo 'inside Strawberry class , getInfo method<br>';   	
+	}
+}
+$obj=new Strawberry;
+$obj->getInfo();//calling child class method
+
+?>
+o/p :-
+------
+Fatal error: Class Strawberry may not inherit from final class (Fruit) in /wwwCUG8nM on line 21
