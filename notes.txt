@@ -1,0 +1,4 @@
+1) When page contains anything i.e. not according to syntax . 
+It can show "This page isn’t working" or " unable to handle this request.
+HTTP ERROR 500".
+2)
