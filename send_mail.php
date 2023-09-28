@@ -59,10 +59,10 @@ isset($_POST['person_name']) && !empty($_POST['person_name']))
 
     $result=$mail->send();
         if ($result) {
-        //echo 'Message sent successfully!';
+         $smsMsg='Message sent successfully!';
         } else {
            // echo 'Message could not be sent.';
-            //echo 'Mailer Error: ' . $mail->ErrorInfo;
+        $smsMsg= 'Message could not be sent.Mailer Error: ' . $mail->ErrorInfo;
         }
     } catch (Exception $e) {
         //echo 'Message could not be sent.';
