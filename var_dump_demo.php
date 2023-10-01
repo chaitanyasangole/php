@@ -1,0 +1,16 @@
+<?php 
+var_dump('hello');
+echo'<br>';
+var_dump(100);
+echo'<br>';
+var_dump(100.23);
+echo'<br>';
+var_dump(true);
+echo'<br>';
+var_dump(false);
+echo'<br>';
+var_dump([]);
+echo'<br>';
+var_dump(null);
+echo'<br>';
+?>
